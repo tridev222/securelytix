@@ -4,7 +4,7 @@ A responsive and secure login + dashboard application built using **React**, **M
 
 ## 🌐 Live Demo
 
-👉 [Live Project Link{:target = "_blank"}](https://securelytix-pi.vercel.app)
+👉 <a href="https://securelytix-pi.vercel.app" target="_blank">Live Project Link</a>
 
 ---
 
@@ -12,13 +12,11 @@ A responsive and secure login + dashboard application built using **React**, **M
 
 ### Login Page
 
-![Login UI] 
-<img width="1437" height="731" alt="image" src="https://github.com/user-attachments/assets/bf0fc165-ae74-4615-97f9-0a5a14eeae17" />
+<img width="1437" height="731" alt="Login UI" src="https://github.com/user-attachments/assets/bf0fc165-ae74-4615-97f9-0a5a14eeae17" />
 
 ### Dashboard
 
-![Dashboard UI]
-<img width="1436" height="725" alt="image" src="https://github.com/user-attachments/assets/1bd61979-baf1-40fe-8960-e5d9f15238bc" />
+<img width="1436" height="725" alt="Dashboard UI" src="https://github.com/user-attachments/assets/1bd61979-baf1-40fe-8960-e5d9f15238bc" />
 
 ---
 
