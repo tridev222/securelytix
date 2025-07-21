@@ -31,19 +31,28 @@ export default function Login() {
     }
   }, []);
 
+  const validateEmail = (email) => /^[a-zA-Z0-9._%+-]+@securelytix\.com$/.test(email);
   const validatePassword = (pwd) => /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/.test(pwd);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!validateEmail(email)) {
+      toast.error('Email must be in format yourname@securelytix.com');
+      return;
+    }
+
     if (!validatePassword(password)) {
       toast.error('Password must be at least 8 characters and include letters and numbers.');
       return;
     }
+
     if (rememberMe) {
       localStorage.setItem('rememberedEmail', email);
     } else {
       localStorage.removeItem('rememberedEmail');
     }
+
     toast.success('Login successful');
     navigate('/dashboard');
   };
